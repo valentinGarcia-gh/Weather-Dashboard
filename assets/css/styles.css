@@ -1,0 +1,23 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+header {
+    text-align: center;
+    background-color: gray;
+    color: white;
+    padding: 35px;
+} 
+
+aside {
+    display: flex;
+    margin: 15px;
+    position: absolute;
+    justify-content: flex-start;
+    border: 5px solid aquamarine;
+    width: 30%;
+    overflow: hidden;
+    z-index: 5;
+    padding: 10px;
+}
