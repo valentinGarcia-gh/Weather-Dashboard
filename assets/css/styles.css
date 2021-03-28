@@ -7,10 +7,16 @@ header {
     text-align: center;
     background-color: gray;
     color: white;
-    padding: 35px;
+    padding-top: 1%;
+    padding-bottom: 2%;
 } 
 
-aside {
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* .searchSection {
     display: flex;
     margin: 15px;
     position: absolute;
@@ -20,4 +26,57 @@ aside {
     overflow: hidden;
     z-index: 5;
     padding: 10px;
+} */
+
+li {
+    margin-left: 10px;
+    width: 400px;
+}
+
+.searchSection {
+    background-color: lightgray;
+    padding-right: 5%;
+    float: left !important;
+}
+
+.searchBox {
+    margin-left: 10px;
+    margin-bottom: 5%;
+}
+
+.search-header{
+    margin-left: 10px;
+}
+
+.searchBtnProp {
+    border-radius: 5px;  
+    width: 2rem;
+    /* height: 10rem; */
+}
+
+.searchBtnProp:hover {
+    background-color: lightblue;
+    border-width: 1px !important;
+    border-color: black;
+    border-style: solid;
+}
+
+.cityInfo {
+    border-width: 1px !important;
+    border-color: grey !important;
+    border-style: solid;
+}
+
+.cityHeader {
+    margin-left: 10%;
+    margin-bottom: 1%;
+}
+
+.card-color-w {
+    background-color: lightblue;
+    color: white;
+}
+
+.fiveDayForecast {
+    margin-top: 1%;
 }
