@@ -20,42 +20,40 @@
         <div class="col-3 searchSection">
             <h2 class="search-header">Search A City's Weather</h2>
             <input type="text" name="searchCity" class="searchBox" placeholder="Enter city name" />
-            <button class="searchBtn searchBtnProp" type="submit">
-                <i class="fas fa-search-location"></i>
-            </button>
+            <button class="searchBtn searchBtnProp" type="submit"><i class="fas fa-search-location"></i></button>
 
             <ul class="list-group list-group-horizontal">
-                <li class="list-group-item priorSearches"></li>
+                <li id="1" class="list-group-item priorSearches"></li>
             </ul>
             <ul class="list-group list-group-horizontal">
-                <li class="list-group-item priorSearches"></li>
+                <li id="2" class="list-group-item priorSearches"></li>
             </ul>
             <ul class="list-group list-group-horizontal">
-                <li class="list-group-item priorSearches"></li>
+                <li id="3" class="list-group-item priorSearches"></li>
             </ul>
             <ul class="list-group list-group-horizontal">
-                <li class="list-group-item priorSearches"></li>
+                <li id="4" class="list-group-item priorSearches"></li>
             </ul>
             <ul class="list-group list-group-horizontal">
-                <li class="list-group-item priorSearches"></li>
+                <li id="5" class="list-group-item priorSearches"></li>
             </ul>
         </div>
 
         <div class="col-9">
             <div class="cityInfo">
-                <h2 class="cityHeader"><span>City</span></h2>
-                <ul class="cityList">
+                <h2 class="cityHeader"><span>City</span></h2><img class="weatherPic" alt="icon of the current weather">
+                <ul class="list-group list-group-flush cityList">
                     <li class="list-group-item temperature" style="background: rgba(0, 0, 0, 0)">
                         <p>Temp:</p>
                     </li>
-                    <li class="list-group-item humidity" style="background: rgba(0, 0, 0, 0)">
-                        <p>Humidity:</p>
+                    <li class="list-group-item" style="background: rgba(0, 0, 0, 0)">
+                        <p class="humidity">Humidity:</p>
                     </li>
-                    <li class="list-group-item windSpeed" style="background: rgba(0, 0, 0, 0)">
-                        <p>Wind Speed:</p>
+                    <li class="list-group-item" style="background: rgba(0, 0, 0, 0)">
+                        <p class="windSpeed">Wind Speed:</p>
                     </li>
-                    <li class="list-group-item uvIndex" style="background: rgba(0, 0, 0, 0)">
-                        <p>UV Index:</p>
+                    <li class="list-group-item" style="background: rgba(0, 0, 0, 0)">
+                        <p class="uvIndex">UV Index:</p>
                     </li>
                 </ul>
             </div>
@@ -66,45 +64,50 @@
             <div class="col w-30">
                 <div class="card h-60 w-50 blue-cast">
                     <div class="card-body card-color-w forecast"> 
-                        <h5 class="cardTitle">03/26/2021</h5>
-                        <p class="card-temp">Temp:</p>
-                        <p class="card-humid">Humidity:</p>
+                        <h5 class="cardTitle date1">03/26/2021</h5>
+                        <img class="card-image1" src="" alt="icon of the weather for 1st date">
+                        <p class="card-temp1">Temp:</p>
+                        <p class="card-humid1">Humidity:</p>
                     </div>
                 </div>
             </div>
             <div class="col w-30">
                 <div class="card h-60 w-50 blue-cast">
                     <div class="card-body card-color-w  forecast">
-                        <h5 class="cardTitle">03/26/2021</h5>
-                        <p class="card-temp">Temp:</p>
-                        <p class="card-humid">Humidity:</p>
+                        <h5 class="cardTitle date2">03/26/2021</h5>
+                        <img class="card-image2" src="" alt="icon of the weather for the 2nd date">
+                        <p class="card-temp2">Temp:</p>
+                        <p class="card-humid2">Humidity:</p>
                     </div>
                 </div>
             </div>
             <div class="col w-30">
                 <div class="card h-60 w-50 blue-cast">
                     <div class="card-body card-color-w forecast">
-                        <h5 class="cardTitle">03/26/2021</h5>
-                        <p class="card-temp">Temp:</p>
-                        <p class="card-humid">Humidity:</p>
+                        <h5 class="cardTitle date3">03/26/2021</h5>
+                        <img class="card-image3" src="" alt="icon of the weather for the 3rd date">
+                        <p class="card-temp3">Temp:</p>
+                        <p class="card-humid3">Humidity:</p>
                     </div>
                 </div>
             </div>
             <div class="col w-30">
                 <div class="card h-60 w-50 blue-cast">
                     <div class="card-body card-color-w forecast">
-                        <h5 class="cardTitle">03/26/2021</h5>
-                        <p class="card-temp">Temp:</p>
-                        <p class="card-humid">Humidity:</p>
+                        <h5 class="cardTitle date4">03/26/2021</h5>
+                        <img class="card-image4" src="" alt="icon of the weather for the 4th date">
+                        <p class="card-temp4">Temp:</p>
+                        <p class="card-humid4">Humidity:</p>
                     </div>
                 </div>
             </div>
             <div class="col w-30">
                 <div class="card h-60 w-50 blue-cast">
                     <div class="card-body card-color-w forecast">
-                        <h5 class="cardTitle">03/26/2021</h5>
-                        <p class="card-temp">Temp:</p>
-                        <p class="card-humid">Humidity:</p>
+                        <h5 class="cardTitle date5">03/26/2021</h5>
+                        <img class="card-image5" src="" alt="icon of the weather for the 5th date">
+                        <p class="card-temp5">Temp:</p>
+                        <p class="card-humid5">Humidity:</p>
                     </div>
                 </div>
             </div>
